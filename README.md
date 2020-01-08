@@ -7,7 +7,7 @@ bikeshare
 ### Description
 The program is an analysis tool for bikeshare behaviour.
 The user can choose between the bikeshare data of
-chicago, new york city and washington.
+chicago, new york city and washington D. C..
 It is possible to carry out analyzes.
 
 ### Files used
