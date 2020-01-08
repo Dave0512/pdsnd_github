@@ -12,6 +12,8 @@ It is possible to carry out analyzes.
 
 ### Files used
 bikeshare.py
+
+Sources:
 chicago.csv
 new_york_city.csv
 washington.csv
