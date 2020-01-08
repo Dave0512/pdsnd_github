@@ -120,7 +120,7 @@ class my_window(QWidget): # window inherits from QWidget
         while message == 16384:
             data = df.iloc[data_row : data_row + 5]
             self.browser.append("########" + "\n" +
-                                "Raw Data" + "\n" +
+                                "Raw Data:" + "\n" +
                                 "########" + "\n" +
                                 str(data))
             print(data_row)
