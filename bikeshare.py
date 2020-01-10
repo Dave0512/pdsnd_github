@@ -43,6 +43,10 @@ class my_window(QWidget): # window inherits from QWidget
         self.setGeometry(50,50, 900, 450)
         self.setWindowTitle("US bikeshare Analysis Tool")
 
+        self.lbl_title=QtWidgets.QLabel(self)
+        self.lbl_title.move(100,50)
+        self.lbl_title.setText("Selection Menu")
+
         self.lbl_city=QtWidgets.QLabel(self)
         self.lbl_city.move(100,100)
         self.lbl_city.setText("City:")
